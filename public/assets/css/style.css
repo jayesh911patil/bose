@@ -1,0 +1,943 @@
+/* styling bose .landing-headphone-img */
+#bose .landing-headphone-img {
+    margin-top: 39px;
+    z-index: 2;
+    margin-left: 100px;
+}
+
+#bose .nav-img {
+    margin-left: 400px;
+}
+
+/* styling bose .position-absolute */
+#bose .position-absolute {
+    z-index: -22;
+}
+
+/* styling bose .col-lg-2 */
+#bose .col-lg-2 {
+    z-index: 2;
+}
+
+/* styling bose .quiet-comfort */
+#bose .quiet-comfort {
+    margin-top: 150px;
+}
+
+/* styling bose .nav-link */
+#bose .nav-link {
+    padding-left: 40px;
+}
+
+/* styling bose .headphone-shadow */
+#bose .headphone-shadow {
+    top: 628px;
+    right: 300px;
+    z-index: 1;
+}
+
+/* styling bose .color */
+#bose .color {
+    margin-top: 30px;
+}
+
+/* bose .d-flex */
+#bose .d-flex {
+    margin-top: 20px;
+}
+
+/* styling .quiet-comfort h1 */
+.quiet-comfort h1 {
+    font-size: 60px;
+}
+
+/* styling headphone-img img */
+#headphone-img img {
+    margin-top: 190px;
+    padding: 20px;
+}
+
+/* styling #perfect-sound hq */
+#perfect-sound h1 {
+    word-spacing: 10px;
+    margin-top: 160px;
+    font-size: 65px;
+    padding-left: 200px;
+}
+
+/* styling perfect-sound p */
+#perfect-sound p {
+    padding-left: 200px;
+    font-size: 19px;
+}
+
+/* styling perfect-sound .nav-item */
+#perfect-sound .nav-item {
+    padding-right: 20px;
+}
+
+/* styling perfect-sound .perfect-section-img */
+#perfect-sound .perfect-section-img {
+    margin-top: 40px;
+    left: 49px;
+}
+
+/* styling perfect-sound .signup-img */
+#perfect-sound .signup-img {
+    margin-top: 30px;
+    left: 100px;
+}
+
+/* styling perfect-sound .battery-section */
+#perfect-sound .battery-section-img {
+    margin-top: 30px;
+    left: 100px;
+}
+
+/* styling perfect-sound .accesories */
+#perfect-sound .accesories {
+    margin-top: 40px;
+    left: 150px;
+}
+
+/* styling perfect-sound .support */
+#perfect-sound .suopport {
+    margin-top: 40px;
+    left: 150px;
+}
+
+/* styling premium-design h1 */
+#premium-design h1 {
+    margin-top: 230px;
+}
+
+/* styling premium-design .premium-img-two */
+#premium-design .premium-img-two {
+    margin-top: 100px;
+    margin-left: -160px;
+}
+
+/* styling premium-design .premium */
+#premium-design .premium-img-three {
+    right: 0px;
+}
+
+/* styling battery-life .justify-content-center */
+#battery-life .justify-content-center {
+    margin-left: 150px;
+    margin-top: 290px;
+}
+
+/* styling battery-life img */
+#battery-life img {
+    margin-left: 50px;
+}
+
+/* styling battery-life h1 */
+#battery-life h1 {
+    font-size: 60px;
+    word-spacing: 9px;
+}
+
+/* styling headphone-img i */
+#headphone-img i {
+    font-size: 70px;
+}
+
+/* styling headphone-img .carrousel-control-prev */
+#headphone-img .carousel-control-prev {
+    margin-top: 180px;
+    padding-right: 60px;
+}
+
+/* styling headphone-img .carousel-control-next */
+#headphone-img .carousel-control-next {
+    margin-top: 180px;
+    padding-left: 60px;
+}
+
+/* styling related-product img */
+#related-product img {
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+/* styling related-product h5 */
+#related-product h5 {
+    margin-left: 20px;
+}
+
+/* styling related-product .heading */
+#related-product .heading {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+/* styling related-product .scroll-card */
+#related-product .scroll-card {
+    margin-bottom: 230px;
+}
+
+/* styling related-product p */
+#related-product p {
+    margin-left: 20px;
+}
+
+/* styling signup .form-control */
+#signup .form-control {
+    width: 200px;
+    border-radius: 20px;
+}
+
+/* styling signup .container */
+#signup .container {
+    padding-bottom: 100px;
+}
+
+/* styling signup h1 */
+#signup h1 {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+/* styling signup img */
+#signup img {
+    top: -160px;
+    left: 187px;
+}
+
+/* styling signup .heading */
+#signup .heading {
+    margin-left: 250px;
+}
+
+/* styling footer img */
+#footer img {
+    margin-left: 45px;
+}
+
+/* styling footer span */
+#footer span {
+    padding-left: 37px;
+}
+
+/* styling footer .row */
+#footer .row {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+/* styling  related-product .card*/
+#related-product .card {
+    box-shadow: 2px 2px 9px rgb(227, 227, 227);
+    border: none;
+}
+
+/* :root */
+:root {
+    --page-margin: min(0rem, 0vw);
+
+}
+
+/* styling section */
+section {
+    display: grid;
+    grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
+
+    &>* {
+        grid-column: center;
+    }
+}
+
+/* styling .card-wrapper */
+.cards-wrapper {
+    grid-column: center-start / -1;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+    overflow: auto;
+    padding-bottom: 1rem;
+    padding-right: var(--page-margin);
+
+    /* styling .card */
+    .card {
+        display: grid;
+        place-content: center;
+        height: 415px;
+        min-width: 310px;
+    }
+}
+
+/* styling .card-wrapper::-webkit-scrollbar */
+.cards-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* styling .card-wrapper h5 */
+.cards-wrapper h5 {
+    margin-top: 25px;
+}
+
+
+/* media screen 768px */
+@media screen and (max-width: 768px) {
+
+    /* styling boose h1 */
+    #bose h1 {
+        font-size: 30px;
+        margin-top: -86px;
+    }
+
+    #bose .buy-now {
+        position: absolute;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+        left: 100px;
+    }
+
+    /* styling bose .color */
+    #bose .color {
+        margin-top: 10px;
+    }
+
+    #bose .nav-img {
+        background-color: rgba(128, 128, 128, 0.21);
+        border-radius: 50%;
+        padding: 10px;
+
+    }
+
+    /* styling bose .landing-headphone-img */
+    #bose .landing-headphone-img {
+        width: 352px;
+        height: 411px;
+        margin-left: -10px;
+        margin-top: 28px;
+    }
+
+    /* styling d-flex button */
+    .d-flex button {
+        padding-left: 10px !important;
+
+    }
+
+    /* styling d-flex h3 */
+    .d-flex h3 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+
+    /* styling bose .position-absoute */
+    #bose .position-absolute {
+        height: 500px;
+        width: 400px;
+        margin-right: -20px;
+    }
+
+    /* styling  bose .headphone-shadow*/
+    #bose .headphone-shadow {
+        right: 10px;
+        top: 419px;
+        width: 338px;
+        height: 120px;
+    }
+
+    /* styling bose .color-line-image */
+    #bose .color-line-image {
+        width: 375px;
+        height: 500px;
+    }
+
+    /* styling bose .navbar-toggler */
+    #bose .navbar-toggler {
+        background-color: white !important;
+        font-size: 10px;
+        position: absolute;
+        top: 20px;
+        right: -251px;
+    }
+
+    /* styling  bose .navbar*/
+    #bose .nav-link {
+        margin-left: 200px;
+    }
+
+    #bose .nav-img {
+        margin-left: -8px !important;
+    }
+
+
+    /* styling headphne-img .carousel-inner */
+    #headphone-img .carousel-inner {
+        margin-top: -80px !important;
+    }
+
+    /* headphone-img img */
+    #headphone-img img {
+        height: 160px;
+    }
+
+    /* styling headphone-img i */
+    #headphone-img i {
+        font-size: 35px;
+    }
+
+    /* styling perfect-sound .perfect-sextion-img */
+    #perfect-sound .perfect-section-img {
+        width: 274px;
+        height: 296px;
+        margin-left: -29px !important;
+        margin-top: 5px;
+    }
+
+    /* styling perfect-sound .signup-img */
+    #perfect-sound .signup-img {
+        width: 239px;
+        height: 260px;
+        margin-left: -58px;
+        margin-top: 5px;
+    }
+
+    /* styling perfect-sound .battery-section-img */
+    #perfect-sound .battery-section-img {
+        width: 311px;
+        height: 318px;
+        margin-left: -80px;
+        margin-top: 5px;
+    }
+
+    /* styling perfect-sound .accesories */
+    #perfect-sound .accesories {
+        width: 233px;
+        height: 282px;
+        margin-left: -94px;
+        margin-top: 5px;
+    }
+
+    /* styling perfect-sound .support */
+    #perfect-sound .suopport {
+        width: 230px;
+        height: 291px;
+        margin-left: -103px;
+        margin-top: 5px;
+    }
+
+    /* styling perfect-sound h1 */
+    #perfect-sound h1 {
+        font-size: 20px;
+        word-spacing: normal;
+        margin-left: -145px;
+        margin-top: 75px;
+    }
+
+    /* styling perfect-sound */
+    #perfect-sound {
+        margin-left: 10px;
+    }
+
+    /* styling  perfect-sound p */
+    #perfect-sound p {
+        font-size: 14px;
+        margin-left: -145px;
+    }
+
+    /* styling perfect-sound .support-heading */
+    #perfect-sound .support-heading {
+        margin-left: 88px !important;
+    }
+
+    /* styling perfect-sound .support-pargraph */
+    #perfect-sound .support-paragraph {
+        margin-left: 88px !important;
+    }
+
+    /* styling premium-design .premium-img-one */
+    #premium-design .premium-img-one {
+        width: 210px;
+    }
+
+    /* styling premium-design */
+    #premium-design .premium-img-three {
+        width: 210px;
+        right: -22px;
+    }
+
+    #premium-design h1 {
+        margin-top: 170px !important;
+    }
+
+    /* styling premium-design .premium-img-two */
+    #premium-design .premium-img-two {
+        width: 677px;
+        height: 488px;
+        margin-top: 22px;
+        margin-left: -205px;
+    }
+
+    /* styling battery-life h1 */
+    #battery-life h1 {
+        font-size: 30px;
+        word-spacing: normal;
+        margin-left: 40px;
+    }
+
+    /* styling battery-life op */
+    #battery-life p {
+        font-size: 13px;
+        margin-left: 40px;
+    }
+
+    /* styling battery-life .justify-conteent-center */
+    #battery-life .justify-content-center {
+        margin-left: 0px;
+        margin-top: 133px;
+    }
+
+    /* styling battery-life img */
+    #battery-life img {
+        width: 393px;
+        height: 433px;
+        margin-left: 0px;
+    }
+
+    /* styling battery-life .row */
+    #battery-life .row {
+        margin-top: 40px;
+    }
+
+    /* styling related-product .heading */
+    #related-product .heading {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    /* styling related-product .btn */
+    #related-product .btn {
+        position: absolute;
+        right: 30px;
+        margin-top: 36px;
+        margin-left: 2px;
+        font-size: 16px;
+    }
+
+    /* styling related-product img */
+    #related-product img {
+        width: 265px;
+        height: 238px;
+        margin-left: -13px;
+    }
+
+    /* styling .card */
+    .card {
+        display: grid;
+        place-content: center;
+        height: 432px;
+        width: 330px;
+        margin-bottom: 100px;
+    }
+
+    /* styling .cards-wrapper h5 */
+    .cards-wrapper h5 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .cards-wrapper p {
+        text-align: center;
+    }
+
+    /* styling related-product .container-fluid */
+    #related-product .container-fluid {
+        height: 578px;
+        width: 789px;
+    }
+
+    /* styling signup h1 */
+    #signup h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    /* styling signup .heading */
+    #signup .heading {
+        margin-left: 40px;
+    }
+
+    /* styling signup p */
+    #signup p {
+        font-size: 15px;
+    }
+
+    /* styling signup .btn */
+    #signup .btn {
+        position: absolute;
+        right: 126px;
+        padding-left: 26px !important;
+        padding-right: 26px !important;
+    }
+
+    /* styling signup img */
+    #signup img {
+        width: 259px;
+        height: 312px;
+        left: 11px;
+        top: -50px;
+    }
+
+    /* styling signup .container-fluid */
+    #signup .container-fluid {
+        height: 262px;
+        margin-top: 20px;
+        width: 786px;
+    }
+
+    /* styling signup .form-control */
+    #signup .form-control {
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    /* styling footer */
+    #footer p {
+        margin-left: -96px !important;
+        font-size: 10px;
+    }
+
+    /* styling footer span */
+    #footer span {
+        margin-left: 10px;
+    }
+
+    #footer .container-fluid {
+        width: 786px;
+    }
+
+    /* styling footer img */
+    #footer img {
+        width: 100px !important;
+        margin-bottom: 15px;
+        margin-left: -130px;
+    }
+
+
+
+
+    /* media screen 426px */
+    @media screen and (max-width: 426px) {
+
+        /* styling bose .navbar-toggler */
+        #bose .navbar-toggler {
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: -10px;
+        }
+
+        /* styling bose .nav-link */
+        #bose .nav-link {
+            margin-left: 100px;
+        }
+
+        /* styling bose .black-section , .color-line-image */
+        #bose .black-section,
+        .color-line-image {
+            visibility: hidden;
+        }
+
+        /* styling bose .shop */
+        #bose .nav-img {
+            margin-left: 80px;
+        }
+
+        /* styling bose h1 */
+        #bose h1 {
+            margin-top: 10px;
+            font-size: 30px;
+        }
+
+        /* styling bose .quiet-comfort */
+        #bose .quiet-comfort {
+            margin-top: 0px;
+            margin-left: 28px;
+            text-align: center;
+        }
+
+        /* styling bose .color */
+        #bose .color {
+            margin-top: 0px;
+        }
+
+        /* styling bose .text-start */
+        #bose .text-start {
+            margin-left: 92px;
+        }
+
+        /* styling bose .buy-now */
+        #bose .buy-now {
+            position: absolute;
+            left: 222px;
+            padding-left: 25px !important;
+            padding-right: 25px !important;
+            margin-top: 5px;
+        }
+
+        /* styling bose .d-flex */
+        #bose .d-flex {
+            margin-left: 84px;
+            font-size: 30px;
+        }
+
+        #bose h3 {
+            font-size: 25px;
+        }
+
+        /* styling bose .landing-headphone-img */
+        #bose .landing-headphone-img {
+            width: 369px;
+            height: 358px;
+            margin-left: 32px !important;
+            margin-top: 29px;
+        }
+
+        /* styling bose .headphone-shadow */
+        #bose .headphone-shadow {
+            visibility: hidden;
+        }
+
+        /* styling headphone-img i */
+        #headphone-img i {
+            font-size: 40px;
+
+        }
+
+        /* styling headphone-img .carousel-inner */
+        #headphone-img .carousel-inner {
+            margin-left: 20px;
+            padding-top: 55px;
+            width: 425px;
+        }
+
+        /* styling headphone-img img */
+        #headphone-img img {
+            height: 323px;
+            padding: 15px;
+            margin-top: 102px;
+            width: 400px;
+        }
+
+        /* styling headphone-img .carousel-control-prev */
+        #headphone-img .carousel-control-prev {
+            margin-top: 130px;
+            padding-right: 45px;
+        }
+
+        /* styling headphone-img .carousel-control-next */
+        #headphone-img .carousel-control-next {
+            margin-top: 130px;
+            padding-left: 40px;
+        }
+
+        /* styling perfect-sound .perfect-section-img */
+        #perfect-sound .perfect-section-img {
+            margin-top: 10px;
+            width: 418px;
+            height: 403px;
+        }
+
+        /* styling perfect-sound .signup-img */
+        #perfect-sound .signup-img {
+            margin-top: 10px;
+            width: 347px;
+            height: 403px;
+        }
+
+        /* styling perfect-sound .battery-section-img */
+        #perfect-sound .battery-section-img {
+            margin-top: 10px;
+            width: 396px;
+            height: 403px;
+        }
+
+        /* styling perfect-sound .accesories */
+        #perfect-sound .accesories {
+            margin-top: 10px;
+            width: 335px;
+            height: 403px;
+        }
+
+        /* styling perfect-sound .suopport */
+        #perfect-sound .suopport {
+            margin-top: 10px;
+            width: 342px;
+            height: 403px;
+        }
+
+        /* styling perfect-sound h1 */
+        #perfect-sound h1 {
+            margin-top: 460px;
+            font-size: 25px;
+            margin-left: -170px;
+            text-align: center;
+        }
+
+        /* styling perfect-sound p */
+        #perfect-sound p {
+            text-align: center;
+            font-size: 16px;
+
+        }
+
+        /* styling perfect-sound .nav-item */
+        #perfect-sound .nav-item {
+            padding-right: 0px;
+            font-size: 11px;
+        }
+
+        /* styling perfect-sound .support-heading */
+        #perfect-sound .support-heading {
+            margin-left: -170px !important;
+            margin-top: 460px;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        /* styling perfect-sound .support-paragraph */
+        #perfect-sound .support-paragraph {
+            margin-left: -170px !important;
+            font-size: 16px;
+            margin-left: -170px;
+            text-align: center;
+        }
+
+        /* styling premium-design .container */
+        #premium-design .container {
+            width: 447px;
+            margin-top: -131px;
+        }
+
+        /* styling premium-design .premium-img-one */
+        #premium-design .premium-img-one {
+            position: absolute;
+            top: 10px;
+            width: 150px;
+            height: 340px;
+        }
+
+        /* styling premium-design .premium-img-three */
+        #premium-design .premium-img-three {
+            position: absolute;
+            top: 10px;
+            width: 150px;
+            height: 340px;
+        }
+
+        /* styling premium-design .premium-img-two */
+        #premium-design .premium-img-two {
+            width: 388px;
+            height: 278px;
+            margin-left: 49px;
+        }
+
+        /* styling battery-life h1 , p */
+        #battery-life h1,
+        p {
+            text-align: center;
+        }
+
+        /* styling battery-life ,container-fluid */
+        #battery-life .container-fluid {
+            margin-top: -50px;
+        }
+
+        #battery-life img {
+            width: 434px;
+            height: 479px;
+            margin-left: 25px;
+        }
+
+        /* styling related-product .container-fluid */
+        #related-product .container-fluid {
+            width: 494px;
+            height: 660px;
+        }
+
+        /* styling related-product h1 */
+        #related-product h1 {
+            text-align: center;
+        }
+
+        /* styling related-product button */
+        #related-product button {
+            margin-left: 140px !important;
+            margin-top: -10px !important;
+            position: absolute;
+            right: 100px !important;
+
+        }
+
+        #related-product img {
+            width: 200px;
+            height: 193px;
+            margin-left: -26px;
+        }
+
+        #related-product .scroll-card {
+            margin-bottom: 100px !important;
+        }
+
+        /* styling card */
+        .card {
+            display: grid;
+            place-content: center;
+            height: 370px;
+            width: 411px;
+            text-align: center;
+            margin-top: 100px;
+
+        }
+
+        #signup h1 {
+            margin-left: 10px !important;
+            text-align: center;
+        }
+
+        #signup .btn {
+            position: absolute;
+            right: 100px;
+        }
+
+        #signup p {
+            width: 345px;
+        }
+
+        /* styling signup img */
+        #signup img {
+            visibility: hidden;
+        }
+
+        #signup .container-fluid {
+            height: 262px;
+            margin-top: 20px;
+            width: 494px;
+        }
+
+        /* styling footer p */
+        #footer img {
+            width: 100px !important;
+            margin-left: -196px !important;
+
+        }
+
+        #footer .container-fluid {
+            width: 494px;
+        }
+
+        #footer p {
+            margin-top: -30px;
+        }
+
+        #footer span {
+            padding: 0px;
+        }
+    }
+}
